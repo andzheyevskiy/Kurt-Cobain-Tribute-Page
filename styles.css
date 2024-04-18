@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+/*===========================================================*/
+
+}
+main{
+    background-color: #999999;
+    width: 95%;
+    margin: 30px auto;
+}
+h1,h2,h3{
+    text-align: center;
+}
+#title{
+    padding: 30px 0;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#img-div{
+    margin: 0 auto 20px auto;
+    width: 90%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#image{
+    margin-top: 25px;
+    width: 90%;
+    max-width: 100%;
+    max-height: 800px;
+}
+#img-caption{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.timeline{
+    width: 80%;
+    margin: auto;
+    list-style-type: initial;
+    list-style-position: outside;
+    text-indent: 1px; 
+}
+ul{
+    text-align: left;
+    margin-left: 30px;
+}
+li{
+    margin: 20px 0;
+    font-size: 18px;
+}
+li p span{
+    font-weight: bold;
+}
+p{
+    line-height: 26px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#note{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+ul + h3{
+    padding-bottom: 20px;
+}
+.footer{
+    width: 80%;
+    margin: 20px auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34,0.7);
+}
+.footer a:link{
+    color: #ffffff;
+}.footer a:visited{
+    color: #ffffff;
+}
+.footer a:hover{
+    color: rgba(255, 255, 255);
+}
+.footer a:active{
+    color: rgba(255, 0, 0);
+}
