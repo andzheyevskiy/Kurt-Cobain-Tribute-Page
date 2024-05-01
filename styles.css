@@ -50,7 +50,7 @@ table {
 }
 main{
     background-color: #999999;
-    width: 85%;
+    width: 95%;
     margin: 30px auto;
 }
 h1,h2,h3{
@@ -94,19 +94,18 @@ h3{
     margin-bottom: 20px;
 }
 #timeline-container{
-    width: 80%;
+    width: 100%;
     margin: auto;
     align-self: center;
 }
 .timeline{
-    width: 100%;
+    width: 90%;
     margin: auto;
     list-style-type: initial;
     list-style-position: outside;
-    text-indent: 1px; 
-    padding: 0 20px;
-    text-align: left;
-    margin-left: 30px;
+    text-indent: 0px; 
+    text-align: start;
+
 }
 
 li{
@@ -118,7 +117,7 @@ li p span{
 }
 p{
     line-height: 26px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 #note{
@@ -127,11 +126,11 @@ p{
     text-align: left;
     margin-bottom: 30px;
     font-style: italic;
-    margin-left: -55px;
-    margin-right: -55px;
 }
 ul + h3{
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .footer{
     width: 80%;
